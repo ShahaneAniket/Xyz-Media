@@ -8,17 +8,22 @@ import { FooterComponent } from './footer/footer.component';
 import { BodyComponent } from './body/body.component';
 import { AboutUsComponent } from './about-us/about-us.component';
 import { LoginComponent } from './login/login.component';
+import { GalleryComponent } from './gallery/gallery.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
+    
     AppComponent,
     HeaderComponent,
     FooterComponent,
     BodyComponent,
     AboutUsComponent,
-    LoginComponent
+    LoginComponent, 
+    GalleryComponent
   ],
   imports: [
+    FormsModule,
     BrowserModule,
     AppRoutingModule
   ],
