@@ -1,6 +1,7 @@
 <nav class="navbar navbar-expand-lg sticky-top  navbar-light bg-white border-bottom shadow-sm">
-    <a class="navbar-brand" href="#"> <span>Xyz
-         Media</span></a>
+    <a class="navbar-brand" href="#">
+        <img src="../../assets/images/logo.png" height="60px"> 
+        <span>Xyz  Media</span></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -15,7 +16,7 @@
                 <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
               </li>
          
-          <li class="nav-item">
+          <li class="nav-item" *ngIf="isLoggedin == 'true'">
               <a  class="nav-link"  href="gallery" title="gallery" ><span  >Gallery</span></a>
           </li>
           <li class="nav-item">

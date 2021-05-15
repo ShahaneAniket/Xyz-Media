@@ -2,7 +2,8 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AboutUsComponent } from './about-us/about-us.component';
 import { BodyComponent } from './body/body.component';
-import { GalleryComponent } from './gallery/gallery.component';
+import { GalleryComponent } from './gallary/gallary.component'; 
+ 
 import { LoginComponent } from './login/login.component';
 
 const routes: Routes = [ 

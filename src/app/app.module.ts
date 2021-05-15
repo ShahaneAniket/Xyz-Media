@@ -7,9 +7,9 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { BodyComponent } from './body/body.component';
 import { AboutUsComponent } from './about-us/about-us.component';
-import { LoginComponent } from './login/login.component';
-import { GalleryComponent } from './gallery/gallery.component';
+import { LoginComponent } from './login/login.component'; 
 import { FormsModule } from '@angular/forms';
+import { GalleryComponent } from './gallary/gallary.component';
 
 @NgModule({
   declarations: [
